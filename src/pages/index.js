@@ -7,7 +7,7 @@ import { Left, Right } from "../components/structures"
 import { Logo, CoverImage } from "../components/images"
 
 const StartPage = () => (
-  <div className="vh-100 bg-blue">
+  <div className="vh-100">
     <Left>
       <Logo />
       <WriteUp />
