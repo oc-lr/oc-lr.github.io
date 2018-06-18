@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import "tachyons"
 
+import "./fonts.css"
+
 const Layout = ({ children, data }) => (
   <div>
     <Helmet

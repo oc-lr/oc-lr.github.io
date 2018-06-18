@@ -7,11 +7,15 @@ import { Left, Right } from "../components/structures"
 import { Logo, CoverImage } from "../components/images"
 
 const StartPage = () => (
-  <div className="vh-100">
+  <div className="vh-100 flex">
     <Left>
-      <Logo />
-      <WriteUp />
-      <Footer />
+      <div className="pv5 flex-row" style={{ width: "30rem" }}>
+        <div className="flex-row">
+          <Logo />
+          <WriteUp />
+        </div>
+        <Footer />
+      </div>
     </Left>
     <Right>
       <CoverImage />

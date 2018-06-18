@@ -1,7 +1,7 @@
 import React from "react"
 
 export const Logo = () => (
-  <div className="">
+  <div className="w4 h4">
     <img src="/oc.png" />
   </div>
 )
