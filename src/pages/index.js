@@ -8,9 +8,6 @@ const StartPage = () => (
     <NestedContainer className="" innerClassName="ch">
       <Welcome />
     </NestedContainer>
-    <NestedContainer className="ch bg-green" innerClassName="ch">
-      <Welcome />
-    </NestedContainer>
   </div>
 )
 

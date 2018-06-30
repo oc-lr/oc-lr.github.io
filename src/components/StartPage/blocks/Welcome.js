@@ -9,12 +9,17 @@ export function Welcome() {
         <Logo />
         <Nav
           navs={[
-            { label: "Jikku", url: "", key: 0 },
-            { label: "Hello", url: "", key: 1 },
+            { label: "Team", url: "", key: 0 },
+            { label: "Contact", url: "", key: 1 },
           ]}
         />
       </div>
-      <WriteUp />
+      <div className="flex cv">
+        <WriteUp />
+        <div>
+          <img src="/city.png" style={{ width: "25rem" }} />
+        </div>
+      </div>
     </div>
   )
 }
@@ -26,5 +31,7 @@ const Nav = ({ navs }) => (
 )
 
 const NavLink = ({ label, url }) => (
-  <div className="pointer mr3 hover-gray b">{label}</div>
+  <div className="pointer f6 ml3 hover-gray black-70 b ttu montserrat">
+    {label}
+  </div>
 )
