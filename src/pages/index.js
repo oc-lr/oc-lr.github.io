@@ -1,6 +1,7 @@
 import React from "react"
 import Link from "gatsby-link"
 
+import { NestedContainer } from "../core/NestedContainer"
 import { WriteUp } from "../components/StartPage/WriteUp"
 import { Footer } from "../components/StartPage/Footer"
 import { Left, Right } from "../components/structures"
