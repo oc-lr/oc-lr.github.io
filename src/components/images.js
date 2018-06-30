@@ -1,8 +1,8 @@
 import React from "react"
 
 export const Logo = () => (
-  <div className="w4 h4">
-    <img src="/oc.png" />
+  <div className="w3">
+    <img src="logo.svg" />
   </div>
 )
 
