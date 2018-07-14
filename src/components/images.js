@@ -1,7 +1,7 @@
 import React from "react"
 
 export const Logo = () => (
-  <div className="w3">
+  <div className="w2">
     <img src="logo.svg" />
   </div>
 )
