@@ -1,5 +1,6 @@
 import React from "react"
 import { Logo } from "../../Logo"
+import { City } from "../../City"
 import { WriteUp } from "../WriteUp"
 
 export function Welcome() {
@@ -16,9 +17,7 @@ export function Welcome() {
       </div>
       <div className="flex cv">
         <WriteUp />
-        <div>
-          <img src="/city.png" style={{ width: "25rem" }} />
-        </div>
+        <City />
       </div>
     </div>
   )

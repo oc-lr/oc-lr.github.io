@@ -12,14 +12,14 @@
     "styled-components": "^3.3.3",
     "tachyons": "^4.10.0"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
-    "compile_tailwind":
-      "tailwind build ./src/styles/tailwind-config.css -c ./tailwind.js -o ./src/styles/tailwind.css",
+    "compile_tailwind": "tailwind build ./src/styles/tailwind-config.css -c ./tailwind.js -o ./src/styles/tailwind.css",
     "build": "npm run compile_tailwind && gatsby build",
-    "deploy":
-      "npm run compile_tailwind && gatsby build --prefix-paths && gh-pages -d public -b master",
+    "deploy": "npm run compile_tailwind && gatsby build --prefix-paths && gh-pages -d public -b master",
     "develop": "npm run compile_tailwind && gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
