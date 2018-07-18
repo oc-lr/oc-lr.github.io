@@ -1,12 +1,12 @@
 import React from "react"
-import { Logo } from "../../images"
+import { Logo } from "../../Logo"
 import { WriteUp } from "../WriteUp"
 
 export function Welcome() {
   return (
     <div className="pv5 flex-row" style={{ maxWidth: "50rem" }}>
       <div className="flex justify-between cv">
-        <Logo />
+        <Logo color="#11998e" scale={0.3} />
         <Nav
           navs={[
             { label: "Team", url: "", key: 0 },

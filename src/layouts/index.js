@@ -6,6 +6,8 @@ import "tachyons"
 import "./fonts.css"
 import "./tachyons-extended.css"
 
+import "../styles/tailwind.css"
+
 import { SiteWrapper } from "../core/SiteWrapper"
 
 const Layout = ({ children, data }) => (
