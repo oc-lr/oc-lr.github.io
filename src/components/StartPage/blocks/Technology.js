@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import Particles from "react-particles-js"
 
 import { Card } from "../../Card"
 import { Decentralized } from "../../glyphs/Decentralized"
@@ -9,22 +10,38 @@ import { Verifiable } from "../../glyphs/Verifiable"
 export function Technology() {
   return (
     <Back>
+      <Particles
+        width="70rem"
+        height="30rem"
+        params={{
+          particles: {
+            line_linked: {
+              shadow: {
+                enable: true,
+                color: "#fff",
+                blur: 0,
+              },
+            },
+          },
+        }}
+        style={{ width: "100%" }}
+      />
       <div
-        className="bg-white rounded-lg shadow-lg flex justify-around cv"
+        className="absolute flex justify-around cv"
         style={{ width: "50rem", height: "30rem" }}
       >
         <Card
-          Icon={() => <Decentralized scale={0.23} color="#11998e" />}
+          Icon={() => <Decentralized scale={0.23} color="#fff" />}
           title="Decentralized"
           description="Built on Ethereum"
         />
         <Card
-          Icon={() => <Secure scale={0.23} color="#11998e" />}
+          Icon={() => <Secure scale={0.23} color="#fff" />}
           title="Secure"
           description="No single point of failure"
         />
         <Card
-          Icon={() => <Verifiable scale={0.25} color="#11998e" />}
+          Icon={() => <Verifiable scale={0.25} color="#fff" />}
           title="Verifiable"
           description="Independently auditable"
         />
@@ -36,7 +53,7 @@ export function Technology() {
 const Back = styled.div.attrs({
   className: "w-100 h5 flex ca",
 })`
-  height: 42rem;
+  height: 40rem;
   background: #11998e; /* fallback for old browsers */
   background: linear-gradient(to bottom, #11998e, #38ef7d);
 `

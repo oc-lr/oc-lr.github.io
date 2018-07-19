@@ -6,12 +6,12 @@ export function Card({ Icon, title, description }) {
     <Container>
       <Icon />
       <div
-        className="mt-8 mb-2 b open-sans black-70 f5 pa2 br1"
-        style={{ background: "rgba(17, 153, 142, 0.3)" }}
+        className="mt-8 mb-2 b open-sans white f4 pa2 br2"
+        style={{ background: "rgba(255, 255, 255, 0.2)" }}
       >
         {title}
       </div>
-      <div className="f6 open-sans black-70">{description}</div>
+      <div className="f5 open-sans white-80">{description}</div>
     </Container>
   )
 }
