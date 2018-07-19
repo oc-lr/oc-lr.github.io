@@ -38,14 +38,5 @@ const Back = styled.div.attrs({
 })`
   height: 42rem;
   background: #11998e; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom,
-    #11998e,
-    #38ef7d
-  )
-  background: linear-gradient(
-    to bottom,
-    #11998e,
-    #38ef7d
-  )
+  background: linear-gradient(to bottom, #11998e, #38ef7d);
 `
