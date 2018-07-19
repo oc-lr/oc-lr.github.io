@@ -11,22 +11,22 @@ import { Footer } from "../components/StartPage/blocks/Footer"
 
 const StartPage = () => (
   <div>
-    <NestedContainer className="" innerClassName="ch">
+    <NestedContainer className="ch" innerClassName="ch">
       <Welcome />
     </NestedContainer>
-    <NestedContainer className="" innerClassName="ch">
+    <NestedContainer className="ch" innerClassName="ch">
       <Process />
     </NestedContainer>
-    <NestedContainer className="" innerClassName="ch">
+    <NestedContainer className="ch" innerClassName="ch">
       <Technology />
     </NestedContainer>
-    <NestedContainer className="" innerClassName="ch">
+    <NestedContainer className="ch" innerClassName="ch">
       <RoadMap />
     </NestedContainer>
-    <NestedContainer className="" innerClassName="ch">
+    <NestedContainer className="ch" innerClassName="ch">
       <Team />
     </NestedContainer>
-    <NestedContainer className="" innerClassName="ch">
+    <NestedContainer className="ch" innerClassName="ch">
       <Footer />
     </NestedContainer>
   </div>
