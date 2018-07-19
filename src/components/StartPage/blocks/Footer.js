@@ -29,10 +29,10 @@ export function Footer() {
 function SocialLinks() {
   return (
     <div className="">
-      <a href="https://twitter.com/OrigoChain" className="mr2">
+      <a href="https://twitter.com/OrigoChain" className="mr3">
         <Twitter scale={0.6} color="#454545" />
       </a>
-      <a href="https://github.com/OrigoChain" className="mr2">
+      <a href="https://github.com/OrigoChain" className="mr3">
         <Github scale={0.6} color="#454545" />
       </a>
       <a href="https://slack.com/OrigoChain">
