@@ -3,12 +3,13 @@ import styled from "styled-components"
 import { Logo } from "../../Logo"
 import { City } from "../../City"
 import { WriteUp } from "../WriteUp"
+import { Definition } from "../blocks/Definition.js"
 
 export function Welcome() {
   return (
     <Container>
-      <div className="pv5 flex-row" style={{ maxWidth: "50rem" }}>
-        <div className="flex justify-between cv">
+      <div className="pv5 flex-row w-100" style={{ maxWidth: "50rem" }}>
+        <div className="flex cv justify-between">
           <Logo color="#11998e" scale={0.7} />
           <Nav
             navs={[
@@ -17,10 +18,7 @@ export function Welcome() {
             ]}
           />
         </div>
-        <div className="flex cv">
-          <WriteUp />
-          <City />
-        </div>
+        <Definition />
       </div>
     </Container>
   )
