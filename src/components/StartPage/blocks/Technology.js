@@ -16,17 +16,17 @@ export function Technology() {
         <Card
           Icon={() => <Decentralized scale={0.23} color="#11998e" />}
           title="Decentralized"
-          description="Its all over the place!"
+          description="Built on Ethereum"
         />
         <Card
           Icon={() => <Secure scale={0.23} color="#11998e" />}
           title="Secure"
-          description="Its all over the place!"
+          description="No single point of failure"
         />
         <Card
           Icon={() => <Verifiable scale={0.25} color="#11998e" />}
           title="Verifiable"
-          description="Its all over the place!"
+          description="Independently auditable"
         />
       </div>
     </Back>
