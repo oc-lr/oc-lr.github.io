@@ -6,25 +6,25 @@ import { Id } from "../../../components/Id"
 const team = [
   {
     key: 0,
-    image: "https://randomuser.me/api/portraits/men/19.jpg",
+    image: "/pics-jj.png",
     name: "Jikku Jose",
     subtitle: "Design, Blockchain",
   },
   {
     key: 3,
-    image: "https://randomuser.me/api/portraits/men/19.jpg",
+    image: "/pics-nw.png",
     name: "Nathan Wadhwani",
     subtitle: "Project Management, Strategy",
   },
   {
     key: 1,
-    image: "https://randomuser.me/api/portraits/men/19.jpg",
+    image: "/pics-rbs.png",
     name: "Rakesh BS",
     subtitle: "Algorithms, Blockchain, Cryptography",
   },
   {
     key: 2,
-    image: "https://randomuser.me/api/portraits/men/19.jpg",
+    image: "/pics-nm.png",
     name: "Nikhil Mohan",
     subtitle: "System Architecture, Distributed Systems",
   },
