@@ -6,6 +6,7 @@ import { Process } from "../components/StartPage/blocks/Process"
 import { Technology } from "../components/StartPage/blocks/Technology"
 import { Definition } from "../components/StartPage/blocks/Definition"
 import { Team } from "../components/StartPage/blocks/Team"
+import { RoadMap } from "../components/StartPage/blocks/RoadMap"
 import { Footer } from "../components/StartPage/blocks/Footer"
 
 const StartPage = () => (
@@ -18,6 +19,9 @@ const StartPage = () => (
     </NestedContainer>
     <NestedContainer className="" innerClassName="ch">
       <Technology />
+    </NestedContainer>
+    <NestedContainer className="" innerClassName="ch">
+      <RoadMap />
     </NestedContainer>
     <NestedContainer className="" innerClassName="ch">
       <Team />

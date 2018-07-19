@@ -5,10 +5,13 @@ import { FlowCircle } from "../../glyphs/FlowCircle"
 
 export function Process() {
   return (
-    <div className="pv5 flex">
+    <div
+      className="pv5 flex justify-between w-100"
+      style={{ maxWidth: "50rem" }}
+    >
       <Content>
-        OrigoChain disintermediates trusted third parties in ownership
-        management systems
+        OrigoChain facillitates authorities to record transaction details on the
+        blockchain.
       </Content>
       <FlowCircle scale={0.7} />
     </div>
@@ -17,5 +20,5 @@ export function Process() {
 
 const Content = styled.div.attrs({
   className: "f2 open-sans fw2 cv",
-  style: { width: "22rem" },
+  style: { width: "20rem" },
 })``
