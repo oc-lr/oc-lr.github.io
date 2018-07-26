@@ -4,6 +4,7 @@ import { NestedContainer } from "../core/NestedContainer"
 import { Welcome } from "../components/StartPage/blocks/Welcome"
 import { Process } from "../components/StartPage/blocks/Process"
 import { Technology } from "../components/StartPage/blocks/Technology"
+import { Header } from "../components/StartPage/blocks/Header"
 import { Definition } from "../components/StartPage/blocks/Definition"
 import { Team } from "../components/StartPage/blocks/Team"
 import { RoadMap } from "../components/StartPage/blocks/RoadMap"
@@ -11,6 +12,9 @@ import { Footer } from "../components/StartPage/blocks/Footer"
 
 const StartPage = () => (
   <div>
+    <NestedContainer className="ch" innerClassName="ch">
+      <Header />
+    </NestedContainer>
     <NestedContainer className="ch" innerClassName="ch">
       <Welcome />
     </NestedContainer>
