@@ -10,22 +10,6 @@ import { Verifiable } from "../../glyphs/Verifiable"
 export function Technology() {
   return (
     <Back>
-      <Particles
-        width="70rem"
-        height="30rem"
-        params={{
-          particles: {
-            line_linked: {
-              shadow: {
-                enable: true,
-                color: "#fff",
-                blur: 0,
-              },
-            },
-          },
-        }}
-        style={{ width: "100%" }}
-      />
       <div
         className="absolute flex justify-around cv"
         style={{ width: "50rem", height: "30rem" }}
@@ -54,6 +38,5 @@ const Back = styled.div.attrs({
   className: "w-100 h5 flex ca",
 })`
   height: 40rem;
-  background: #11998e; /* fallback for old browsers */
-  background: linear-gradient(to bottom, #11998e, #38ef7d);
+  background: #396afc;
 `

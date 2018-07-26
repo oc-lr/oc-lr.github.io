@@ -4,7 +4,7 @@ import Helmet from "react-helmet"
 import "tachyons"
 
 import "./fonts.css"
-import "./tachyons-extended.css"
+import "./shorthand.css"
 
 import "../styles/tailwind.css"
 
