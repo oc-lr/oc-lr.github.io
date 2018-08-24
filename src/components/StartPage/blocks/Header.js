@@ -26,10 +26,7 @@ export function Header() {
         }}
         style={{ width: "100%" }}
       />
-      <div
-        className="absolute flex"
-        style={{ width: "50rem", height: "30rem" }}
-      >
+      <div className="absolute " style={{ width: "50rem", height: "30rem" }}>
         <div className="flex justify-between w-full h2 cv">
           <Logo scale={0.3} />
           <div className="flex open-sans">
@@ -38,6 +35,13 @@ export function Header() {
             <Link>Culture</Link>
             <Link>Careers</Link>
           </div>
+        </div>
+        <div
+          className=" white tc f2 fw2 open-sans"
+          style={{ maxWidth: "50rem", paddingTop: "12rem" }}
+        >
+          OrigoChain decentralizes land title management to ensure ownership
+          security
         </div>
       </div>
     </Back>
